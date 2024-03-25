@@ -1,0 +1,9 @@
+{
+	"name": "fcc-data-visualization",
+	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.19",
+	"features": {
+		// "ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/cirolosapio/devcontainers-features/alpine-node:0": {}
+	},
+	"postStartCommand": "code -r README.md"
+}
